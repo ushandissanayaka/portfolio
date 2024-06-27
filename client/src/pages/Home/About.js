@@ -17,14 +17,15 @@ const skills = [
   return (
     <div className='w-100%'>
       <SectionTitles title="About" />
-      <div className='flex w-full items-center'>
-        <div className="h-[50vh] ">
+
+      <div className='flex w-full items-center sm:flex-col'>
+        <div className="h-[70vh] w-1/2 sm:w-full ">
         <lottie-player src="https://lottie.host/71e803b5-bbb5-4cb7-a29a-3ae0d59e9865/gpL65AAIUC.json"
          background="##FFFFFF" speed="1" 
-          loop controls autoplay direction="1" 
+          loop controls autoplay direction="2" 
           mode="normal"></lottie-player>
         </div>
-        <div className='flex flex-col gap-5 w-2/3  '>
+        <div className='flex flex-col gap-8 w-2/3 sm:w-full  '>
          <p className='text-white'>
           I am an undergraduate student at the University of Moratuwa, 
           pursuing a degree in Information Technology. With a keen interest in web development,

@@ -10,6 +10,14 @@ module.exports = {
         tertiary: "#00b7eb" // example color
       },
     },
+
+    screens: {
+      
+
+      'lg': {'max': '2023px'},
+      'sm': {'max': '1000px'},
+     
+    }
   },
   plugins: [],
 };

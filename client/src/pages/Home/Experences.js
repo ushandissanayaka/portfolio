@@ -10,9 +10,9 @@ function Experences() {
     <div>
     <SectionTitles title="Experences" />
 
-    <div className="flex py-10 gap-20 sm:flex-col"> 
+    <div className="flex py-10 gap-10 sm:flex-col"> 
 
-     <div className="flex flex-col gap-10 border-l-2 border-[#135e4c82] w-1/3 sm:flex-row sm:overflow-x-scroll sm:w-full">
+     <div className="flex flex-col gap-10 border-l-2 border-[#135e4c82] w-2/3 sm:flex-row sm:overflow-x-scroll sm:w-full">
         {experences.map((experence, index) => (
             <div onClick={() =>{
                 setSelectedItemIndex(index);

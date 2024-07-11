@@ -35,7 +35,7 @@ function Contact() {
        <lottie-player 
        src="https://lottie.host/95fa08ed-8972-43c3-99e0-5acaa2a187fd/FpQRyuTVEH.json"
         background="##FFFFFF" 
-        speed="10"  
+        speed="0.1"  
         loop controls autoplay direction="1" 
         mode="normal">
 

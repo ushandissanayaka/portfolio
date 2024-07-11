@@ -7,7 +7,7 @@ function Projects() {
     const [selectedItemIndex, setSelectedItemIndex ] = React.useState(0)
   return (
     <div>
-      <SectionTitles title="Experences" />
+      <SectionTitles title="Projects" />
       <div className="flex py-10 gap-10 sm:flex-col"> 
 
      <div className="flex flex-col gap-20 border-l-2 border-[#135e4c82] w-2/3 sm:flex-row sm:overflow-x-scroll sm:w-full">

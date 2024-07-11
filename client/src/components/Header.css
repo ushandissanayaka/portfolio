@@ -1,0 +1,24 @@
+.hover-line {
+    position: relative;
+  }
+  
+  .hover-line::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Adjust this value to position the underline */
+    width: 100%;
+    height: 3px; /* Adjust this value to change the underline thickness */
+    background-color: red;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+    border-radius: 3px;
+  }
+  
+  .hover-line:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  
